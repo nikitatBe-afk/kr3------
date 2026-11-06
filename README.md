@@ -12,7 +12,7 @@ HTML/CSS-сайта интернет-магазина или каталога т
 
 ## Ссылка на опубликованный проект
 
-GitHub Pages:
+GitHub Pages:https://nikitatbe-afk.github.io/kr3------/
 
 ## Как посмотреть проект
 
