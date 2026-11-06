@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Камень «Валера»: описание, характеристики и цена.">
+  <title>Камень «Валера» — Учебный интернет-магазин</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+  <header>
+    <div class="site-header">
+      <a class="site-logo" href="index.html">ShopProject</a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="order.html">Заявка</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="index.html#advantages">Преимущества</a></li>
+          <li><a href="index.html#popular">Популярные товары</a></li>
+          <li><a href="index.html#contacts">Обратная связь</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a href="index.html">Главная</a>
+      <span><a href="catalog.html">Каталог</a></span>
+      <span>Камень «Валера»</span>
+    </nav>
+
+    <article class="product">
+      <img
+        class="product__image"
+        src="images/product1-640.jpg"
+        srcset="images/product1-480.jpg 480w,
+                images/product1-640.jpg 640w,
+                images/product1-960.jpg 960w"
+        sizes="(max-width: 767px) 100vw, 50vw"
+        alt="Камень «Валера»"
+        width="640"
+        height="480"
+      >
+
+      <div class="product__info">
+        <h1>Камень «Валера»</h1>
+        <p>
+          Валера — камень старой закалки. Пережил ледниковый период,
+          динозавров и три переезда. Не просит есть, не лает по ночам
+          и не обижается, если про него забыть. Идеальный питомец
+          для занятых людей.
+        </p>
+        <p class="product__price">Цена: 1000 руб.</p>
+        <a class="button" href="order.html">Оформить заявку</a>
+      </div>
+    </article>
+
+    <section class="section">
+      <div class="table-wrapper">
+        <table class="product-table">
+          <caption>Характеристики товара</caption>
+          <thead>
+            <tr>
+              <th scope="col">Параметр</th>
+              <th scope="col">Значение</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Категория</th>
+              <td>Декоративные камни</td>
+            </tr>
+            <tr>
+              <th scope="row">Порода</th>
+              <td>Гранит (по крайней мере, он так говорит)</td>
+            </tr>
+            <tr>
+              <th scope="row">Цвет</th>
+              <td>Серый с характером</td>
+            </tr>
+            <tr>
+              <th scope="row">Вес</th>
+              <td>Тяжёлый</td>
+            </tr>
+            <tr>
+              <th scope="row">Срок службы</th>
+              <td>Около 4,5 млрд лет</td>
+            </tr>
+            <tr>
+              <th scope="row">Уход</th>
+              <td>Не требуется</td>
+            </tr>
+            <tr>
+              <th scope="row">Цена</th>
+              <td>1000 руб.</td>
+            </tr>
+            <tr>
+              <th scope="row">Наличие</th>
+              <td>В наличии (лежит)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Учебный проект. Все права защищены.</p>
+    <p>Дисциплина: Фронтенд и бэкенд разработка</p>
+  </footer>
+</body>
+</html>
